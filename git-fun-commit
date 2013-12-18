@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ART_PATH=/usr/local/share/git-fun-commit/arts
+
+art_name=$2
+art_name="$art_name.art"
+
+art=`cat $ART_PATH/$art_name`
+git commit -F- <<EOF
+$1
+$art
+EOF
