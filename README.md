@@ -8,7 +8,7 @@ For example this command:
 ```bash
 git fun-commit "Some commit message" santa
 ```
-lead to this result in log:
+lead to this result in the log:
 ```bash
 git log --graph
 ```
@@ -24,7 +24,7 @@ Deinstallation:
 ```bash
 sudo make uninstall
 ```
-It will be copy binary git-fun-commit into <b>/usr/local/bin</b> and create directory <b>/usr/local/share/git-fun-commit</b>. This directory will be contain all available ascii arts, and you can add your own arts of course.
+It will be copy the binary git-fun-commit into <b>/usr/local/bin</b> and create the directory <b>/usr/local/share/git-fun-commit</b>. This directory will be contain all available ascii arts, and you can add your own arts of course.
 
 General syntax of this command:
 ```bash
