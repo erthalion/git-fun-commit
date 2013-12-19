@@ -1,8 +1,8 @@
 git-fun-commit
 ==============
 
-Let's add some lulz into the boring weekdays)
-This small command allows use a fun ascii arts in the commit messages.
+Let's add some lulz into the boring weekdays =)
+This small command allows to use a fun ascii arts in the commit messages.
 
 For example this command:
 ```bash
@@ -20,15 +20,15 @@ Installation is pretty simple:
 ```bash
 sudo make install
 ```
-Deinstallation:
+Uninstallation:
 ```bash
 sudo make uninstall
 ```
-It will be copy the binary git-fun-commit into <b>/usr/local/bin</b> and create the directory <b>/usr/local/share/git-fun-commit</b>. This directory will be contain all available ascii arts, and you can add your own arts of course.
+It will copy the binary git-fun-commit into <b>/usr/local/bin</b> and create the directory <b>/usr/local/share/git-fun-commit</b>. This directory will contain all available ascii arts, and you can add your own arts of course.
 
 General syntax of this command:
 ```bash
 git fun-commit "{actual commit message}" {art_file_name}
 ```
 
-Enjoy and be careful)
+Enjoy and be careful =)
