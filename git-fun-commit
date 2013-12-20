@@ -2,8 +2,12 @@
 
 ART_PATH=/usr/local/share/git-fun-commit/arts
 
-art_name=$2
-art_name="$art_name.art"
+if [ -z "$2" ]
+then
+    art_name=`ls -1 $ART_PATH | shuf -n1`
+else
+    art_name="$2.art"
+fi
 
 art=`cat $ART_PATH/$art_name`
 git commit -F- <<EOF
