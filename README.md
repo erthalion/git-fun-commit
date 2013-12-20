@@ -14,7 +14,7 @@ git log --graph
 ```
 <img src='http://i43.tinypic.com/2vvpbp1.png' border='0' alt="git fun commit" />
 
-installation
+Installation
 ============
 Installation is pretty simple:
 ```bash
@@ -26,9 +26,11 @@ sudo make uninstall
 ```
 It will copy the binary git-fun-commit into <b>/usr/local/bin</b> and create the directory <b>/usr/local/share/git-fun-commit</b>. This directory will contain all available ascii arts, and you can add your own arts of course.
 
-General syntax of this command:
+Usage
+=====
 ```bash
 git fun-commit "{actual commit message}" {art_file_name}
 ```
+If the <b>art_file_name</b> isn't specified, an random art will be used.
 
 Enjoy and be careful =)
