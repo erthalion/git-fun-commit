@@ -35,4 +35,4 @@ If the <b>art_file_name</b> isn't specified, an random art will be used.
 
 Enjoy and be careful =)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-24190660-7/git-fun-commit)](https://github.com/igrigorik/ga-beacon)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/erthalion/git-fun-commit/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
